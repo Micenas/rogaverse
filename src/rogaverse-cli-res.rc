@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "birjees"
-            VALUE "FileDescription",    "birjees-cli (OSS RPC client for birjees)"
+            VALUE "CompanyName",        "rogaverse"
+            VALUE "FileDescription",    "rogaverse-cli (OSS RPC client for rogaverse)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "birjees-cli"
+            VALUE "InternalName",       "rogaverse-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "birjees-cli.exe"
-            VALUE "ProductName",        "birjees-cli"
+            VALUE "OriginalFilename",   "rogaverse-cli.exe"
+            VALUE "ProductName",        "rogaverse-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

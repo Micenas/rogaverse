@@ -152,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>birjees will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>birjees va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos PIEs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>rogaverse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>rogaverse va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos PIEs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -211,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a birjees Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse birjees que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a rogaverse Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse rogaverse que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>L'adresse birjees avec laquelle signer le message</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>L'adresse rogaverse avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse birjees</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse rogaverse</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>L'adresse birjees avec laquelle le message a été signé</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>L'adresse rogaverse avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified birjees address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse birjees renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified rogaverse address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse rogaverse renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a birjees address</source>
-        <translation>Envoyer des pièces à une adresse birjees</translation>
+        <source>Send coins to a rogaverse address</source>
+        <translation>Envoyer des pièces à une adresse rogaverse</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for birjees</source>
-        <translation>Modifier les options de configuration pour birjees</translation>
+        <source>Modify configuration options for rogaverse</source>
+        <translation>Modifier les options de configuration pour rogaverse</translation>
     </message>
     <message>
-        <source>Sign messages with your birjees addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse birjees pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your rogaverse addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse rogaverse pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified birjees addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse birjees spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified rogaverse addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse rogaverse spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -653,8 +653,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (birjees.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (birjees.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (rogaverse.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (rogaverse.conf).</translation>
     </message>
 </context>
 <context>
@@ -854,8 +854,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid birjees address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse birjees valide</translation>
+        <source>The entered address "%1" is not a valid rogaverse address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse rogaverse valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1461,8 +1461,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The birjees address to send the payment to</source>
-        <translation>L'adresse birjees à laquelle envoyer le paiement</translation>
+        <source>The rogaverse address to send the payment to</source>
+        <translation>L'adresse rogaverse à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1507,8 +1507,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>L'adresse birjees avec laquelle signer le message</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>L'adresse rogaverse avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1535,16 +1535,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse birjees</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse rogaverse</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>L'adresse birjees avec laquelle le message a été signé</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>L'adresse rogaverse avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified birjees address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse birjees renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified rogaverse address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse rogaverse renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1698,7 +1698,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>birjees-core</name>
+    <name>rogaverse-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

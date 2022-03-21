@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "birjees"
-            VALUE "FileDescription",    "birjees Core (OSS GUI client for birjees)"
+            VALUE "CompanyName",        "rogaverse"
+            VALUE "FileDescription",    "rogaverse Core (OSS GUI client for rogaverse)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "birjees-qt"
+            VALUE "InternalName",       "rogaverse-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "birjees-qt.exe"
-            VALUE "ProductName",        "birjees Core"
+            VALUE "OriginalFilename",   "rogaverse-qt.exe"
+            VALUE "ProductName",        "rogaverse Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

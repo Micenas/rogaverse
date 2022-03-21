@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wählen Sie die Adresse aus, an die Sie birjees überweisen möchten</translation>
+        <translation>Wählen Sie die Adresse aus, an die Sie rogaverse überweisen möchten</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wählen Sie die Adresse aus, über die Sie birjees empfangen wollen</translation>
+        <translation>Wählen Sie die Adresse aus, über die Sie rogaverse empfangen wollen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre birjees-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie birjees überweisen.</translation>
+        <source>These are your rogaverse addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre rogaverse-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie rogaverse überweisen.</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre birjees-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your rogaverse addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dies sind ihre rogaverse-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,7 +176,7 @@
         <translation>Wallet-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>birjees will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <source>rogaverse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
         <translation>Die Anwendungs wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte beachten Sie, dass auch Verschlüsselung nicht nicht vollständig vor Diebstahl ihrer PIEs durch Schadsoftware schützt, die ihren Computer befällt.</translation>
     </message>
     <message>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Verschlüsselung</translation>
     </message>
     <message>
-        <source>Enter a birjees Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Gib eine birjees Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
+        <source>Enter a rogaverse Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Gib eine rogaverse Adresse ein welche mit BIP 38 verschlüsselt werden soll. Gib ein Passwort in die mittleren Box ein. Drücke auf verschlüsseln, um den privaten schlüssel zu errechenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse:</translation>
     </message>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>birjees Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>rogaverse Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese birjees Adresse besitzt</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese rogaverse Adresse besitzt</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -538,16 +538,16 @@
         <translation>Registerkartenleiste</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
-        <source>Send coins to a birjees address</source>
-        <translation>An eine birjees-Adresse überweisen</translation>
+        <source>Send coins to a rogaverse address</source>
+        <translation>An eine rogaverse-Adresse überweisen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and birjees: URIs)</source>
-        <translation>Zahlung anfordern (QR-Code Generierung und birjees: URIs)</translation>
+        <source>Request payments (generates QR codes and rogaverse: URIs)</source>
+        <translation>Zahlung anfordern (QR-Code Generierung und rogaverse: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -558,24 +558,24 @@
         <translation>Masternodes durchsuchen</translation>
     </message>
     <message>
-        <source>&amp;About birjees Core</source>
-        <translation>Über.birjees Core</translation>
+        <source>&amp;About rogaverse Core</source>
+        <translation>Über.rogaverse Core</translation>
     </message>
     <message>
-        <source>Show information about birjees Core</source>
-        <translation>Zeigt Informationen über birjees Core</translation>
+        <source>Show information about rogaverse Core</source>
+        <translation>Zeigt Informationen über rogaverse Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for birjees</source>
-        <translation>Konfiguration von birjees verändern</translation>
+        <source>Modify configuration options for rogaverse</source>
+        <translation>Konfiguration von rogaverse verändern</translation>
     </message>
     <message>
-        <source>Sign messages with your birjees addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer birjees-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <source>Sign messages with your rogaverse addresses to prove you own them</source>
+        <translation>Unterschreibt eine Nachricht mit Ihrer rogaverse-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified birjees addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten birjees-Adresse signiert wurde</translation>
+        <source>Verify messages to ensure they were signed with specified rogaverse addresses</source>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten rogaverse-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -586,8 +586,8 @@
         <translation>MultiSend Einstellungen</translation>
     </message>
     <message>
-        <source>birjees Core client</source>
-        <translation>birjees Core Client</translation>
+        <source>rogaverse Core client</source>
+        <translation>rogaverse Core Client</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -700,8 +700,8 @@ Adresse: %4</translation>
         <translation>Suche</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (birjees.conf).</source>
-        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "birjees.conf" Konfigurationsdatei hinzufügen.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (rogaverse.conf).</source>
+        <translation>Nicht alle Transaktionen können anzezeigt werden. Um alle Transaktionen zu sehen, müssen sie die Option  "txindex=1" in der "rogaverse.conf" Konfigurationsdatei hinzufügen.</translation>
     </message>
 </context>
 <context>
@@ -881,8 +881,8 @@ Adresse: %4</translation>
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid birjees address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige birjees-Adresse.</translation>
+        <source>The entered address "%1" is not a valid rogaverse address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige rogaverse-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -927,16 +927,16 @@ Adresse: %4</translation>
         <translation>Version</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About birjees Core</source>
-        <translation>Über birjees Core</translation>
+        <source>About rogaverse Core</source>
+        <translation>Über rogaverse Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -970,16 +970,16 @@ Adresse: %4</translation>
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to birjees Core.</source>
-        <translation>Willkommen zu birjees Core.</translation>
+        <source>Welcome to rogaverse Core.</source>
+        <translation>Willkommen zu rogaverse Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where birjees Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie birjees Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where rogaverse Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie rogaverse Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>birjees Core will download and store a copy of the birjees block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>birjees Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>rogaverse Core will download and store a copy of the rogaverse block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>rogaverse Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -990,8 +990,8 @@ Adresse: %4</translation>
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1361,8 +1361,8 @@ Adresse: %4</translation>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter a birjees address (e.g. %1)</source>
-        <translation>birjees-Adresse eingeben (z.B. %1)</translation>
+        <source>Enter a rogaverse address (e.g. %1)</source>
+        <translation>rogaverse-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1734,8 +1734,8 @@ Adresse: %4</translation>
         <translation>E&amp;mpfänger:</translation>
     </message>
     <message>
-        <source>The birjees address to send the payment to</source>
-        <translation>birjees-Adresse, an die überwiesen werden soll</translation>
+        <source>The rogaverse address to send the payment to</source>
+        <translation>rogaverse-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1774,8 +1774,8 @@ Adresse: %4</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the birjees: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the birjees network.</source>
-        <translation>Eine an die birjees-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das birjees-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the rogaverse: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the rogaverse network.</source>
+        <translation>Eine an die rogaverse-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das rogaverse-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1801,8 +1801,8 @@ Adresse: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>birjees Core is shutting down...</source>
-        <translation>birjees Core wird beendet...</translation>
+        <source>rogaverse Core is shutting down...</source>
+        <translation>rogaverse Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1816,8 +1816,8 @@ Adresse: %4</translation>
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>birjees Adresse mit welcher die Nachricht signiert werden soll</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>rogaverse Adresse mit welcher die Nachricht signiert werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1844,8 +1844,8 @@ Adresse: %4</translation>
         <translation>Kopiert die aktuelle Signatur in den Zwischenspeicher</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Signiere die Nachricht um zu Beweisen, dass du diese birjees Adresse besitzt</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Signiere die Nachricht um zu Beweisen, dass du diese rogaverse Adresse besitzt</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1875,8 +1875,8 @@ Adresse: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1891,8 +1891,8 @@ Adresse: %4</translation>
         <translation>Die Dash Core Entwickler</translation>
     </message>
     <message>
-        <source>The birjees Core developers</source>
-        <translation>Die birjees Core Entwickler</translation>
+        <source>The rogaverse Core developers</source>
+        <translation>Die rogaverse Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2459,7 +2459,7 @@ Adresse: %4</translation>
     </message>
 </context>
 <context>
-    <name>birjees-core</name>
+    <name>rogaverse-core</name>
     <message>
         <source>Error</source>
         <translation>Fehler</translation>
@@ -2609,8 +2609,8 @@ Adresse: %4</translation>
         <translation>Wallet gesperrt.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart birjees Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte birjees Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart rogaverse Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte rogaverse Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

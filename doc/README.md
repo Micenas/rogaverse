@@ -1,39 +1,39 @@
-birjees Core
+rogaverse Core
 =====================
 
 Setup
 ---------------------
-[birjees Core](http://birjees.org/wallet) is the original birjees client and it builds the backbone of the network. However, it downloads and stores the entire history of birjees transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[rogaverse Core](http://rogaverse.org/wallet) is the original rogaverse client and it builds the backbone of the network. However, it downloads and stores the entire history of rogaverse transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run birjees on your native platform.
+The following are some helpful notes on how to run rogaverse on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/birjees-qt (GUI, 32-bit) or bin/32/birjeesd (headless, 32-bit)
-- bin/64/birjees-qt (GUI, 64-bit) or bin/64/birjeesd (headless, 64-bit)
+- bin/32/rogaverse-qt (GUI, 32-bit) or bin/32/rogaversed (headless, 32-bit)
+- bin/64/rogaverse-qt (GUI, 64-bit) or bin/64/rogaversed (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run birjees-qt.exe.
+Unpack the files into a directory, and then run rogaverse-qt.exe.
 
 ### OSX
 
-Drag birjees-Qt to your applications folder, and then run birjees-Qt.
+Drag rogaverse-Qt to your applications folder, and then run rogaverse-Qt.
 
 ### Need Help?
 
-* See the documentation at the [birjees Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [rogaverse Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [birjees Forum](http://forum.birjees.org/).
-* Join one of our Slack groups [birjees Slack Groups](https://birjees.org/slack-logins/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [rogaverse Forum](http://forum.rogaverse.org/).
+* Join one of our Slack groups [rogaverse Slack Groups](https://rogaverse.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build birjees on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build rogaverse on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build birjees on your native platfor
 
 Development
 ---------------------
-The birjees repo's [root README](https://github.com/birjees-Project/birjees/blob/master/README.md) contains relevant information on the development process and automated testing.
+The rogaverse repo's [root README](https://github.com/rogaverse-Project/rogaverse/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The birjees repo's [root README](https://github.com/birjees-Project/birjees/blob
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [birjees](http://forum.birjees.org/) forum.
-* Join the [birjees-Dev](https://birjees-dev.slack.com/) Slack group ([Sign-Up](https://birjees-dev.herokuapp.com/)).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [rogaverse](http://forum.rogaverse.org/) forum.
+* Join the [rogaverse-Dev](https://rogaverse-dev.slack.com/) Slack group ([Sign-Up](https://rogaverse-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

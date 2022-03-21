@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * birjees RPC command dispatcher.
+ * rogaverse RPC command dispatcher.
  */
 class CRPCTable
 {

@@ -1,25 +1,25 @@
-# /etc/conf.d/birjeesd: config file for /etc/init.d/birjeesd
+# /etc/conf.d/rogaversed: config file for /etc/init.d/rogaversed
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/birjees/birjees.conf"
+#BITCOIND_CONFIGFILE="/etc/rogaverse/rogaverse.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/birjeesd"
+#BITCOIND_PIDDIR="/var/run/rogaversed"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/birjeesd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/rogaversed.pid"
 
-# Where to write birjeesd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/birjeesd"
+# Where to write rogaversed data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/rogaversed"
 
-# User and group to own birjeesd process
-#BITCOIND_USER="birjees"
-#BITCOIND_GROUP="birjees"
+# User and group to own rogaversed process
+#BITCOIND_USER="rogaverse"
+#BITCOIND_GROUP="rogaverse"
 
-# Path to birjeesd executable
-#BITCOIND_BIN="/usr/bin/birjeesd"
+# Path to rogaversed executable
+#BITCOIND_BIN="/usr/bin/rogaversed"
 
-# Nice value to run birjeesd under
+# Nice value to run rogaversed under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

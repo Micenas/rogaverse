@@ -470,8 +470,8 @@ void BlockExplorer::showEvent(QShowEvent*)
         updateNavButtons();
 
         if (!GetBoolArg("-txindex", false)) {
-            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (birjees.conf).");
-            QMessageBox::warning(this, "birjees Core Blockchain Explorer", Warning, QMessageBox::Ok);
+            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (rogaverse.conf).");
+            QMessageBox::warning(this, "rogaverse Core Blockchain Explorer", Warning, QMessageBox::Ok);
         }
     }
 }

@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše birjees adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your rogaverse addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše rogaverse adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše birjees adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your rogaverse addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše rogaverse adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>birjees will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>birjees sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše PIE pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>rogaverse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>rogaverse sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše PIE pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a birjees Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu birjees, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a rogaverse Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu rogaverse, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>Adresa birjees, ktorou chcete správu podpísať</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>Adresa rogaverse, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto birjees adresy</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto rogaverse adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>birjees adresa, ktorou bola správa podpísaná</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>rogaverse adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified birjees address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou birjees adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified rogaverse address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou rogaverse adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
-        <source>Send coins to a birjees address</source>
-        <translation>Odoslať mince na adresu birjees</translation>
+        <source>Send coins to a rogaverse address</source>
+        <translation>Odoslať mince na adresu rogaverse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and birjees: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a birjees: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and rogaverse: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a rogaverse: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About birjees Core</source>
-        <translation>O birjees Core</translation>
+        <source>&amp;About rogaverse Core</source>
+        <translation>O rogaverse Core</translation>
     </message>
     <message>
-        <source>Show information about birjees Core</source>
-        <translation>Zobraziť informácie o birjees Core</translation>
+        <source>Show information about rogaverse Core</source>
+        <translation>Zobraziť informácie o rogaverse Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for birjees</source>
-        <translation>Zmeňte možnosti konfigurácie pre birjees</translation>
+        <source>Modify configuration options for rogaverse</source>
+        <translation>Zmeňte možnosti konfigurácie pre rogaverse</translation>
     </message>
     <message>
-        <source>Sign messages with your birjees addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy birjees, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your rogaverse addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy rogaverse, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified birjees addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými birjees adresami</translation>
+        <source>Verify messages to ensure they were signed with specified rogaverse addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými rogaverse adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a birjees: URI or payment request</source>
-        <translation>Otvorte birjees: URI alebo žiadosť o platbu</translation>
+        <source>Open a rogaverse: URI or payment request</source>
+        <translation>Otvorte rogaverse: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the birjees Core help message to get a list with possible birjees command-line options</source>
-        <translation>Zobraziť pomocnú správu programu birjees Core a získajte zoznam možností príkazového riadka birjees</translation>
+        <source>Show the rogaverse Core help message to get a list with possible rogaverse command-line options</source>
+        <translation>Zobraziť pomocnú správu programu rogaverse Core a získajte zoznam možností príkazového riadka rogaverse</translation>
     </message>
     <message>
-        <source>birjees Core client</source>
-        <translation>birjees Core klient</translation>
+        <source>rogaverse Core client</source>
+        <translation>rogaverse Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -813,8 +813,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (birjees.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (birjees.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (rogaverse.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (rogaverse.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -908,15 +908,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1093,8 +1093,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>Adresa birjees, ktorou chcete správu podpísať</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>Adresa rogaverse, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1117,16 +1117,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto birjees adresy</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto rogaverse adresy</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>birjees adresa, ktorou bola správa podpísaná</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>rogaverse adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified birjees address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou birjees adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified rogaverse address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou rogaverse adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1164,8 +1164,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     </context>
 <context>
@@ -1260,7 +1260,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>birjees-core</name>
+    <name>rogaverse-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

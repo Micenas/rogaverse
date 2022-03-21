@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres birjees jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres rogaverse jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>birjees Core</source>
+        <source>rogaverse Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
-        <source>Send coins to a birjees address</source>
-        <translation>Wyślij monety do adresu birjees</translation>
+        <source>Send coins to a rogaverse address</source>
+        <translation>Wyślij monety do adresu rogaverse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and birjees: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i birjees:URI)</translation>
+        <source>Request payments (generates QR codes and rogaverse: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i rogaverse:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About birjees Core</source>
+        <source>&amp;About rogaverse Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about birjees Core</source>
+        <source>Show information about rogaverse Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for birjees</source>
-        <translation>Modyfikuj opcje konfiguracji birjees</translation>
+        <source>Modify configuration options for rogaverse</source>
+        <translation>Modyfikuj opcje konfiguracji rogaverse</translation>
     </message>
     <message>
-        <source>Sign messages with your birjees addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami birjees, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your rogaverse addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami rogaverse, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified birjees addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu birjees</translation>
+        <source>Verify messages to ensure they were signed with specified rogaverse addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu rogaverse</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a birjees: URI or payment request</source>
-        <translation>Otwórz birjees: URI i żądanie zapłaty</translation>
+        <source>Open a rogaverse: URI or payment request</source>
+        <translation>Otwórz rogaverse: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the birjees Core help message to get a list with possible birjees command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia birjees, aby dostać listę możliwych opcji birjees command-line</translation>
+        <source>Show the rogaverse Core help message to get a list with possible rogaverse command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia rogaverse, aby dostać listę możliwych opcji rogaverse command-line</translation>
     </message>
     <message>
-        <source>birjees Core client</source>
-        <translation>Rdzeń birjees klient</translation>
+        <source>rogaverse Core client</source>
+        <translation>Rdzeń rogaverse klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -916,7 +916,7 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>birjees Core</source>
+        <source>rogaverse Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -931,7 +931,7 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>birjees Core</source>
+        <source>rogaverse Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     <message>
@@ -1192,16 +1192,16 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start birjees after logging in to the system.</source>
-        <translation>Automatycznie uruchom birjees po zalogowaniu do systemu</translation>
+        <source>Automatically start rogaverse after logging in to the system.</source>
+        <translation>Automatycznie uruchom rogaverse po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start birjees on system login</source>
-        <translation>&amp;Uruchom birjees podczas logowania do systemu</translation>
+        <source>&amp;Start rogaverse on system login</source>
+        <translation>&amp;Uruchom rogaverse podczas logowania do systemu</translation>
     </message>
     <message>
-        <source>Amount of birjees to keep anonymized</source>
-        <translation>Liczba birjees do anonimizacji</translation>
+        <source>Amount of rogaverse to keep anonymized</source>
+        <translation>Liczba rogaverse do anonimizacji</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1220,18 +1220,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting birjees.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie birjees</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting rogaverse.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie rogaverse</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/birjees-project/birjees-project-translations</source>
+https://www.transifex.com/rogaverse-project/rogaverse-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/birjees-project/birjees-project-translations </translation>
+https://www.transifex.com/rogaverse-project/rogaverse-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the birjees network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią birjees poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the rogaverse network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią rogaverse poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1458,8 +1458,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations </transla
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a birjees address (e.g. %1)</source>
-        <translation>Wprowadź adres birjees (np. %1)</translation>
+        <source>Enter a rogaverse address (e.g. %1)</source>
+        <translation>Wprowadź adres rogaverse (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1897,8 +1897,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations </transla
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres birjees jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres rogaverse jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1932,7 +1932,7 @@ https://www.transifex.com/birjees-project/birjees-project-translations </transla
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>birjees Core</source>
+        <source>rogaverse Core</source>
         <translation>&amp;Rdzeń bitcoin</translation>
     </message>
     </context>
@@ -2024,7 +2024,7 @@ https://www.transifex.com/birjees-project/birjees-project-translations </transla
     </message>
     </context>
 <context>
-    <name>birjees-core</name>
+    <name>rogaverse-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

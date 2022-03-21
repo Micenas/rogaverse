@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package birjeesd/birjees-qt
-for Debian-based Linux systems. If you compile birjeesd/birjees-qt yourself, there are some useful files here.
+This directory contains files used to package rogaversed/rogaverse-qt
+for Debian-based Linux systems. If you compile rogaversed/rogaverse-qt yourself, there are some useful files here.
 
-## birjees: URI support ##
+## rogaverse: URI support ##
 
 
-birjees-qt.desktop  (Gnome / Open Desktop)
+rogaverse-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install birjees-qt.desktop
+	sudo desktop-file-install rogaverse-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your birjeesqt binary to `/usr/bin`
-and the `../../share/pixmaps/birjees128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your rogaverseqt binary to `/usr/bin`
+and the `../../share/pixmaps/rogaverse128.png` to `/usr/share/pixmaps`
 
-birjees-qt.protocol (KDE)
+rogaverse-qt.protocol (KDE)
 

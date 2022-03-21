@@ -7,7 +7,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/birjees-config.h"
+#include "config/rogaverse-config.h"
 #endif
 
 #ifdef WIN32

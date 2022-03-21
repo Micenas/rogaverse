@@ -4,7 +4,7 @@
 There are many ways to setup a wallet to support start-many. This guide will walk through two of them.
 
 1. [Importing an existing wallet (recommended if you are consolidating wallets).](#option1)
-2. [Sending 10,000 birjees to new wallet addresses.](#option2)
+2. [Sending 10,000 rogaverse to new wallet addresses.](#option2)
 
 ## <a name="option1"></a>Option 1. Importing an existing wallet
 
@@ -56,9 +56,9 @@ Create a new wallet address for each MasterNode.
 
 Close your QT Wallet.
 
-### Send 10,000 birjees to New Addresses
+### Send 10,000 rogaverse to New Addresses
 
-Just like setting up a standard MN. Send exactly 10,000 birjees to each new address created above.
+Just like setting up a standard MN. Send exactly 10,000 rogaverse to each new address created above.
 
 ### Create New Masternode Private Keys
 
@@ -78,11 +78,11 @@ Remember... this is local. Make sure your QT is not running.
 
 Create the masternode.conf file in the same directory as your wallet.dat.
 
-Copy the masternode private key and correspondig collateral output transaction that holds the 1K birjees.
+Copy the masternode private key and correspondig collateral output transaction that holds the 1K rogaverse.
 
 The masternode private key may be an existing key from [Option 1](#option1), or a newly generated key from [Option 2](#option2). 
 
-*Please note, the masternode priviate key is not the same as a wallet private key. Never put your wallet private key in the masternode.conf file. That is equivalent to putting your 10,000 birjees on the remote server and defeats the purpose of a hot/cold setup.*
+*Please note, the masternode priviate key is not the same as a wallet private key. Never put your wallet private key in the masternode.conf file. That is equivalent to putting your 10,000 rogaverse on the remote server and defeats the purpose of a hot/cold setup.*
 
 ### Get the collateral output
 
@@ -95,7 +95,7 @@ Issue the following:
 Make note of the hash (which is your collaterla_output) and index.
 
 ### Enter your MasterNode details into your masternode.conf file
-[From the birjees github repo](https://github.com/birjees-crypto/birjees/blob/master/doc/masternode_conf.md)
+[From the rogaverse github repo](https://github.com/rogaverse-crypto/rogaverse/blob/master/doc/masternode_conf.md)
 
 The new masternode.conf format consists of a space seperated text file. Each line consisting of an alias, IP address followed by port, masternode private key, collateral output transaction id and collateral output index, donation address and donation percentage (the latter two are optional and should be in format "address:percentage").
 
@@ -112,20 +112,20 @@ mn01 127.0.0.1:53472 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c8
 mn02 127.0.0.2:53472 93WaAb3htPJEV8E9aQcN23Jt97bPex7YvWfgMDTUdWJvzmrMqey aa9f1034d973377a5e733272c3d0eced1de22555ad45d6b24abadff8087948d4 0 7gnwGHt17heGpG9Crfeh4KGpYNFugPhJdh:25
 ```
 
-## What about the birjees.conf file?
+## What about the rogaverse.conf file?
 
-If you are using a masternode.conf file you no longer need the birjees.conf file. The exception is if you need custom settings (thanks oblox). 
+If you are using a masternode.conf file you no longer need the rogaverse.conf file. The exception is if you need custom settings (thanks oblox). 
 
-## Update birjees.conf on server
+## Update rogaverse.conf on server
 
-If you generated a new masternode private key, you will need to update the remote birjees.conf files.
+If you generated a new masternode private key, you will need to update the remote rogaverse.conf files.
 
 Shut down the daemon and then edit the file.
 
-```sudo nano .birjees/birjees.conf```
+```sudo nano .rogaverse/rogaverse.conf```
 
 ### Edit the masternodeprivkey
-If you generated a new masternode private key, you will need to update the masternodeprivkey value in your remote birjees.conf file.
+If you generated a new masternode private key, you will need to update the masternodeprivkey value in your remote rogaverse.conf file.
 
 ## Start your MasterNodes
 
@@ -135,9 +135,9 @@ If your remote server is not running, start your remote daemon as you normally w
 
 I usually confirm that remote is on the correct block by issuing:
 
-```birjeesd getinfo```
+```rogaversed getinfo```
 
-And compare with the official explorer at http://birjeesexplorer.coin-server.com <or> dnet.presstab.pw
+And compare with the official explorer at http://rogaverseexplorer.coin-server.com <or> dnet.presstab.pw
 
 ### Local
 

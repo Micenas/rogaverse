@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços birjees para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your rogaverse addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços rogaverse para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços birjees para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your rogaverse addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços rogaverse para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>birjees will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>birjees vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas PIEs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>rogaverse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>rogaverse vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas PIEs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -235,7 +235,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a birjees Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a rogaverse Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>O endereço birjees para assinar a mensagem</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>O endereço rogaverse para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço birjees</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço rogaverse</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -291,12 +291,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>O endereço birjees que assinou a mensagem</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>O endereço rogaverse que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified birjees address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço birjees especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified rogaverse address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço rogaverse especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,16 +586,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
-        <source>Send coins to a birjees address</source>
-        <translation>Enviar moedas para um endereço birjees</translation>
+        <source>Send coins to a rogaverse address</source>
+        <translation>Enviar moedas para um endereço rogaverse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and birjees: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e birjees: URIs)</translation>
+        <source>Request payments (generates QR codes and rogaverse: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e rogaverse: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,24 +606,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About birjees Core</source>
-        <translation>&amp;Sobre o birjees Core</translation>
+        <source>&amp;About rogaverse Core</source>
+        <translation>&amp;Sobre o rogaverse Core</translation>
     </message>
     <message>
-        <source>Show information about birjees Core</source>
-        <translation>Mostra informação sobre o birjees Core</translation>
+        <source>Show information about rogaverse Core</source>
+        <translation>Mostra informação sobre o rogaverse Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for birjees</source>
-        <translation>Modificar opções de configuração para birjees</translation>
+        <source>Modify configuration options for rogaverse</source>
+        <translation>Modificar opções de configuração para rogaverse</translation>
     </message>
     <message>
-        <source>Sign messages with your birjees addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços birjees para provar que você os detém</translation>
+        <source>Sign messages with your rogaverse addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços rogaverse para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified birjees addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços birjees especificados</translation>
+        <source>Verify messages to ensure they were signed with specified rogaverse addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços rogaverse especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -654,8 +654,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a birjees: URI or payment request</source>
-        <translation>Abrir um birjees: URI ou requisição de pagamento</translation>
+        <source>Open a rogaverse: URI or payment request</source>
+        <translation>Abrir um rogaverse: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -666,12 +666,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the birjees Core help message to get a list with possible birjees command-line options</source>
-        <translation>Mostra a ajuda da birjees Core para receber uma lista com possíveis opções de linha de comando birjees</translation>
+        <source>Show the rogaverse Core help message to get a list with possible rogaverse command-line options</source>
+        <translation>Mostra a ajuda da rogaverse Core para receber uma lista com possíveis opções de linha de comando rogaverse</translation>
     </message>
     <message>
-        <source>birjees Core client</source>
-        <translation>Cliente Core birjees</translation>
+        <source>rogaverse Core client</source>
+        <translation>Cliente Core rogaverse</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -806,8 +806,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (birjees.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (birjees.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (rogaverse.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (rogaverse.conf). </translation>
     </message>
 </context>
 <context>
@@ -1095,8 +1095,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid birjees address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de birjees</translation>
+        <source>The entered address "%1" is not a valid rogaverse address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de rogaverse</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1141,16 +1141,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About birjees Core</source>
-        <translation>Sobre o birjees Core</translation>
+        <source>About rogaverse Core</source>
+        <translation>Sobre o rogaverse Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1184,16 +1184,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to birjees Core.</source>
-        <translation>Bem-vindo ao birjees Core.</translation>
+        <source>Welcome to rogaverse Core.</source>
+        <translation>Bem-vindo ao rogaverse Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where birjees Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde birjees Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where rogaverse Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde rogaverse Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>birjees Core will download and store a copy of the birjees block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>birjees Core vai baixar e armazenar uma cópia da blockchain birjees. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>rogaverse Core will download and store a copy of the rogaverse block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>rogaverse Core vai baixar e armazenar uma cópia da blockchain rogaverse. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1204,8 +1204,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1492,16 +1492,16 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening birjees's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela birjees's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening rogaverse's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela rogaverse's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening birjees's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela birjees's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening rogaverse's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela rogaverse's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening birjees's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela birjees's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening rogaverse's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela rogaverse's.</translation>
     </message>
 </context>
 <context>
@@ -1554,8 +1554,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the birjees client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente birjees no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the rogaverse client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente rogaverse no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1574,12 +1574,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start birjees after logging in to the system.</source>
-        <translation>Iniciar automaticamente birjees depois de logar no sistema.</translation>
+        <source>Automatically start rogaverse after logging in to the system.</source>
+        <translation>Iniciar automaticamente rogaverse depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start birjees on system login</source>
-        <translation>&amp;Iniciar birjees ao logar no sistema</translation>
+        <source>&amp;Start rogaverse on system login</source>
+        <translation>&amp;Iniciar rogaverse ao logar no sistema</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
@@ -1590,8 +1590,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Rodadas de ofuscação para usar</translation>
     </message>
     <message>
-        <source>Amount of birjees to keep anonymized</source>
-        <translation>Quantidade de birjees a manter anônima</translation>
+        <source>Amount of rogaverse to keep anonymized</source>
+        <translation>Quantidade de rogaverse a manter anônima</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1606,18 +1606,18 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting birjees.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do birjees.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting rogaverse.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do rogaverse.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/birjees-project/birjees-project-translations</source>
+https://www.transifex.com/rogaverse-project/rogaverse-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/birjees-project/birjees-project-translations</translation>
+https://www.transifex.com/rogaverse-project/rogaverse-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the birjees network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede birjees através de um proxy SOCKS5</translation>
+        <source>Connect to the rogaverse network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede rogaverse através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1755,8 +1755,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>Fundos</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the birjees network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede birjees após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the rogaverse network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede rogaverse após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1966,8 +1966,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a birjees address (e.g. %1)</source>
-        <translation>Insira um endereço birjees (e.g. %1)</translation>
+        <source>Enter a rogaverse address (e.g. %1)</source>
+        <translation>Insira um endereço rogaverse (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2216,8 +2216,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the birjees RPC console.</source>
-        <translation>Bem-vindo ao console da birjees RPC</translation>
+        <source>Welcome to the rogaverse RPC console.</source>
+        <translation>Bem-vindo ao console da rogaverse RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2520,8 +2520,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>Se a taxa padrão estiver definida para 1000 uPIEs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uPIEs em taxa,&lt;br /&gt; pagará pelo menos 1000 uPIEs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for birjees transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de birjees do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for rogaverse transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de rogaverse do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2608,8 +2608,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid birjees address</source>
-        <translation>Aviso: endereço birjees inválido</translation>
+        <source>Warning: Invalid rogaverse address</source>
+        <translation>Aviso: endereço rogaverse inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2703,8 +2703,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The birjees address to send the payment to</source>
-        <translation>O endereço birjees para enviar o pagamento</translation>
+        <source>The rogaverse address to send the payment to</source>
+        <translation>O endereço rogaverse para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2766,8 +2766,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>birjees Core is shutting down...</source>
-        <translation>birjees Core está desligando...</translation>
+        <source>rogaverse Core is shutting down...</source>
+        <translation>rogaverse Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2785,8 +2785,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>O endereço birjees para assinar a mensagem</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>O endereço rogaverse para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2817,16 +2817,16 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço birjees</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço rogaverse</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>O endereço birjees que assinou a mensagem</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>O endereço rogaverse que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified birjees address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço birjees especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified rogaverse address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço rogaverse especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2908,8 +2908,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2924,8 +2924,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The birjees Core developers</source>
-        <translation>Os desenvolvedores do birjees Core</translation>
+        <source>The rogaverse Core developers</source>
+        <translation>Os desenvolvedores do rogaverse Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3452,14 +3452,14 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
     </message>
 </context>
 <context>
-    <name>birjees-core</name>
+    <name>rogaverse-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all birjees specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas birjees (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all rogaverse specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas rogaverse (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Enable use of automated obfuscation for funds stored in this wallet (0-1, default: %u)</source>
@@ -3522,8 +3522,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong birjees Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core birjees não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong rogaverse Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core rogaverse não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3602,8 +3602,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The birjees Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do birjees Core</translation>
+        <source>Copyright (C) 2015-%i The rogaverse Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do rogaverse Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3654,8 +3654,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of birjees Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da birjees Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of rogaverse Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da rogaverse Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4142,8 +4142,8 @@ https://www.transifex.com/birjees-project/birjees-project-translations</translat
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart birjees Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o birjees Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart rogaverse Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o rogaverse Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

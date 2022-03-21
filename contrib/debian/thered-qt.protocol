@@ -1,6 +1,6 @@
 [Protocol]
-exec=birjees-qt '%u'
-protocol=birjees
+exec=rogaverse-qt '%u'
+protocol=rogaverse
 input=none
 output=none
 helper=true

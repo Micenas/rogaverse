@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/birjees-config.h"
+#include "config/rogaverse-config.h"
 #endif
 
 #include <cstddef>

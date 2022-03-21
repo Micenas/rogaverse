@@ -5,7 +5,7 @@ UNSIGNED=$1
 SIGNATURE=$2
 ARCH=x86_64
 ROOTDIR=dist
-BUNDLE=${ROOTDIR}/birjees-Qt.app
+BUNDLE=${ROOTDIR}/rogaverse-Qt.app
 TEMPDIR=signed.temp
 OUTDIR=signed-app
 

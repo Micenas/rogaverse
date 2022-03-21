@@ -1,18 +1,18 @@
-birjees Core version 2.3.0 is now available from:
+rogaverse Core version 2.3.0 is now available from:
 
-  <https://github.com/birjees-project/birjees/releases>
+  <https://github.com/rogaverse-project/rogaverse/releases>
 
 This is a new major version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/birjees-project/birjees/issues>
+  <https://github.com/rogaverse-project/rogaverse/issues>
 
 Compatibility
 ==============
 
-birjees Core is extensively tested on multiple operating systems using
+rogaverse Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
@@ -20,7 +20,7 @@ No attempt is made to prevent installing or running the software on Windows XP, 
 can still do so at your own risk but be aware that there are known instabilities and issues.
 Please do not report issues about Windows XP to the issue tracker.
 
-birjees Core should also work on most other Unix-like systems but is not
+rogaverse Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable Changes
@@ -51,7 +51,7 @@ For the `winners` parameter, the results are now in a standard JSON format as fo
   {
     nHeight: n,           (int) block height
     winner: {
-        address: addr,    (string) birjees MN Address,
+        address: addr,    (string) rogaverse MN Address,
         nVotes: n,        (int) Number of votes for winner,
     }
   },
@@ -67,7 +67,7 @@ In the case of multiple winners being associated with a single block, the result
     nHeight: n,           (int) block height,
     winner: [
       {
-        address: addr,    (string) birjees MN Address,
+        address: addr,    (string) rogaverse MN Address,
         nVotes: n,        (int) Number of votes for winner,
       },
       ...
@@ -86,7 +86,7 @@ For the `list` (aka `masternodelist`) parameter, the various "modes" have been r
     "txhash": hash,    (string) Collateral transaction hash
     "outidx": n,       (numeric) Collateral transaction output index
     "status": s,       (string) Status (ENABLED/EXPIRED/REMOVE/etc)
-    "addr": addr,      (string) Masternode birjees address
+    "addr": addr,      (string) Masternode rogaverse address
     "version": v,      (numeric) Masternode Protocol version
     "lastseen": ttt,   (numeric) The time in seconds since epoch (Jan 1 1970 GMT) the masternode was last seen
     "activetime": ttt, (numeric) The time in seconds since epoch (Jan 1 1970 GMT) masternode has been active
@@ -115,7 +115,7 @@ The third parameter indicates if the wallet should be unlocked for staking and a
 ZeroMQ (ZMQ) Notifications
 --------------
 
-birjeesd can now (optionally) asynchronously notify clients through a ZMQ-based PUB socket of the arrival of new transactions and blocks. This feature requires installation of the ZMQ C API library 4.x and configuring its use through the command line or configuration file. Please see [docs/zmq.md](/doc/zmq.md) for details of operation.
+rogaversed can now (optionally) asynchronously notify clients through a ZMQ-based PUB socket of the arrival of new transactions and blocks. This feature requires installation of the ZMQ C API library 4.x and configuring its use through the command line or configuration file. Please see [docs/zmq.md](/doc/zmq.md) for details of operation.
 
 **All** Masternodes List GUI Removal
 --------------
@@ -127,7 +127,7 @@ Note that the GUI list of masternodes associated with a controller wallet remain
 SPV Client Support
 --------------
 
-birjees Core now enables bloom filters by default to support SPV clients like mobile wallets. This feature can be disabled by using the `-peerbloomfilters` option on startup.
+rogaverse Core now enables bloom filters by default to support SPV clients like mobile wallets. This feature can be disabled by using the `-peerbloomfilters` option on startup.
 
 2.3.0 Change log
 =================
@@ -141,7 +141,7 @@ git merge commit are mentioned.
 - #179 `a64fa3d` [RPC] Allow infinite unlock (Mrs-X)
 - #183 `dc77b86` [RPC] Add proposal name to removal log (Mrs-X)
 - #189 `6dd8146` [RPC] Add missing 'vote-alias' implementation (Mrs-X)
-- #195 `aee05fe` [ZMQ] ZMQ integration for birjees (Mrs-X)
+- #195 `aee05fe` [ZMQ] ZMQ integration for rogaverse (Mrs-X)
 - #211 `b8c110b` [RPC] Refactor & JSONify results from masternode command(s) (Fuzzbawls)
 - #201 `f0e87b1` [RPC] Add active/incative flag to getstakingstatus RPC call (Mrs-X)
 
@@ -169,7 +169,7 @@ git merge commit are mentioned.
 - #233 `2921a4d` [Qt] Enable support for Qt's HighDpiScaling (Fuzzbawls)
 
 ### Tests and QA
-- #191 `3a778c3` [Tests] Fix the unit test suite for use with birjees (Fuzzbawls)
+- #191 `3a778c3` [Tests] Fix the unit test suite for use with rogaverse (Fuzzbawls)
 - #122 `7d135a1` [Utils] updated netmagic/port for linearize script (Satoshi Ninja)
 
 ### Miscellaneous
@@ -184,10 +184,10 @@ Thanks to everyone who directly contributed to this release:
 - Aaron Miller
 - Fuzzbawls
 - Mrs-X
-- birjees
+- rogaverse
 - Satoshi Ninja
 - Jon Spock
 - furszy
 - presstab
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/birjees-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/rogaverse-project-translations/).

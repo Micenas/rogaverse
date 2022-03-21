@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between birjees-cli and birjeesd)
- * of a given instance of the birjees system.
+ * CBaseChainParams defines the base parameters (shared between rogaverse-cli and rogaversed)
+ * of a given instance of the rogaverse system.
  */
 class CBaseChainParams
 {

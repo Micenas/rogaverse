@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/birjees-config.h \
+           src/rogaverse-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/birjees-config.h \
+           src/config/rogaverse-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/birjees.moc \
+           src/qt/rogaverse.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/birjees-cli.cpp \
-           src/birjees-tx.cpp \
-           src/birjees.cpp \
+           src/rogaverse-cli.cpp \
+           src/rogaverse-tx.cpp \
+           src/rogaverse.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/birjees.cpp \
-           src/qt/birjeesstrings.cpp \
+           src/qt/rogaverse.cpp \
+           src/qt/rogaversestrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_birjees.cpp \
+           src/test/test_rogaverse.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/birjees.qrc src/qt/birjees_locale.qrc
+RESOURCES += src/qt/rogaverse.qrc src/qt/rogaverse_locale.qrc
 
-TRANSLATIONS += src/qt/locale/birjees_bg.ts \
-                src/qt/locale/birjees_de.ts \
-                src/qt/locale/birjees_en.ts \
-                src/qt/locale/birjees_es.ts \
-                src/qt/locale/birjees_fi.ts \
-                src/qt/locale/birjees_fr.ts \
-                src/qt/locale/birjees_it.ts \
-                src/qt/locale/birjees_ja.ts \
-                src/qt/locale/birjees_pl.ts \
-                src/qt/locale/birjees_pt.ts \
-                src/qt/locale/birjees_ru.ts \
-                src/qt/locale/birjees_sk.ts \
-                src/qt/locale/birjees_sv.ts \
-                src/qt/locale/birjees_vi.ts \
-                src/qt/locale/birjees_zh_CN.ts \
-                src/qt/locale/birjees_zh_TW.ts
+TRANSLATIONS += src/qt/locale/rogaverse_bg.ts \
+                src/qt/locale/rogaverse_de.ts \
+                src/qt/locale/rogaverse_en.ts \
+                src/qt/locale/rogaverse_es.ts \
+                src/qt/locale/rogaverse_fi.ts \
+                src/qt/locale/rogaverse_fr.ts \
+                src/qt/locale/rogaverse_it.ts \
+                src/qt/locale/rogaverse_ja.ts \
+                src/qt/locale/rogaverse_pl.ts \
+                src/qt/locale/rogaverse_pt.ts \
+                src/qt/locale/rogaverse_ru.ts \
+                src/qt/locale/rogaverse_sk.ts \
+                src/qt/locale/rogaverse_sv.ts \
+                src/qt/locale/rogaverse_vi.ts \
+                src/qt/locale/rogaverse_zh_CN.ts \
+                src/qt/locale/rogaverse_zh_TW.ts

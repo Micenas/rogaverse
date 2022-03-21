@@ -1,19 +1,19 @@
 [Unit]
-Description=birjees's distributed currency daemon
+Description=rogaverse's distributed currency daemon
 After=network.target
 
 [Service]
-User=birjees
-Group=birjees
+User=rogaverse
+Group=rogaverse
 
 Type=forking
-PIDFile=/var/lib/birjeesd/birjeesd.pid
+PIDFile=/var/lib/rogaversed/rogaversed.pid
 
-ExecStart=/usr/bin/birjeesd -daemon -pid=/var/lib/birjeesd/birjeesd.pid \
-          -conf=/etc/birjees/birjees.conf -datadir=/var/lib/birjeesd
+ExecStart=/usr/bin/rogaversed -daemon -pid=/var/lib/rogaversed/rogaversed.pid \
+          -conf=/etc/rogaverse/rogaverse.conf -datadir=/var/lib/rogaversed
 
-ExecStop=-/usr/bin/birjees-cli -conf=/etc/birjees/birjees.conf \
-         -datadir=/var/lib/birjeesd stop
+ExecStop=-/usr/bin/rogaverse-cli -conf=/etc/rogaverse/rogaverse.conf \
+         -datadir=/var/lib/rogaversed stop
 
 Restart=always
 PrivateTmp=true

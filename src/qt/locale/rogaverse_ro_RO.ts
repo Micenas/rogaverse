@@ -180,6 +180,6 @@
     </message>
     </context>
 <context>
-    <name>birjees-core</name>
+    <name>rogaverse-core</name>
     </context>
 </TS>

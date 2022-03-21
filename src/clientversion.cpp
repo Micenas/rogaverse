@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both birjeesd and birjees-qt, to make it harder for attackers to
+ * for both rogaversed and rogaverse-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("birjees Core");
+const std::string CLIENT_NAME("rogaverse Core");
 
 /**
  * Client version number

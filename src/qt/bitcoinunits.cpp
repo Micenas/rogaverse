@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The birjees developers
+// Copyright (c) 2015-2017 The rogaverse developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -41,11 +41,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case PIE:
-        return QString("RHER");
+        return QString("RGV");
     case mPIE:
-        return QString("mRHER");
+        return QString("mRGV");
     case uPIE:
-        return QString::fromUtf8("uRHER");
+        return QString::fromUtf8("uRGV");
     default:
         return QString("???");
     }
@@ -56,22 +56,22 @@ QString BitcoinUnits::name(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case PIE:
-            return QString("RHER");
+            return QString("RGV");
         case mPIE:
-            return QString("mRHER");
+            return QString("mRGV");
         case uPIE:
-            return QString::fromUtf8("μRHER");
+            return QString::fromUtf8("μRGV");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case PIE:
-            return QString("tRHER");
+            return QString("tRGV");
         case mPIE:
-            return QString("mtRHER");
+            return QString("mtRGV");
         case uPIE:
-            return QString::fromUtf8("μtRHER");
+            return QString::fromUtf8("μtRGV");
         default:
             return QString("???");
         }
@@ -83,22 +83,22 @@ QString BitcoinUnits::description(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case PIE:
-            return QString("RHER");
+            return QString("RGV");
         case mPIE:
-            return QString("Milli-RHER (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-RGV (1 / 1" THIN_SP_UTF8 "000)");
         case uPIE:
-            return QString("Micro-RHER (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-RGV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case PIE:
-            return QString("TestRHER");
+            return QString("TestRGV");
         case mPIE:
-            return QString("Milli-TestRHER (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-TestRGV (1 / 1" THIN_SP_UTF8 "000)");
         case uPIE:
-            return QString("Micro-TestRHER (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-TestRGV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }

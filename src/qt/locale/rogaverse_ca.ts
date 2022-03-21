@@ -270,12 +270,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
-        <source>&amp;About birjees Core</source>
-        <translation>&amp;Sobre birjees Core</translation>
+        <source>&amp;About rogaverse Core</source>
+        <translation>&amp;Sobre rogaverse Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -468,12 +468,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
-        <source>About birjees Core</source>
-        <translation>Sobre birjees Core</translation>
+        <source>About rogaverse Core</source>
+        <translation>Sobre rogaverse Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -491,12 +491,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to birjees Core.</source>
-        <translation>Benvingut a birjees Core.</translation>
+        <source>Welcome to rogaverse Core.</source>
+        <translation>Benvingut a rogaverse Core.</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1048,8 +1048,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1200,7 +1200,7 @@
     </message>
     </context>
 <context>
-    <name>birjees-core</name>
+    <name>rogaverse-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

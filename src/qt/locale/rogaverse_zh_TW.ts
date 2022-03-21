@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出birjees幣的位址</translation>
+        <translation>選擇要匯出rogaverse幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收birjees幣的位址</translation>
+        <translation>選擇要接收rogaverse幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 birjees 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your rogaverse addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 rogaverse 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 birjees 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your rogaverse addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 rogaverse 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>birjees will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>birjees 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 PIE 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>rogaverse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>rogaverse 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 PIE 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -227,16 +227,16 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a birjees Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>輸入你想 BIP 38 加密的 birjees 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
+        <source>Enter a rogaverse Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>輸入你想 BIP 38 加密的 rogaverse 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>位址:</translation>
     </message>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>對訊息簽名的 birjees 位址</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>對訊息簽名的 rogaverse 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,8 +267,8 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>使用簽章來證明你是該  birjees 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>使用簽章來證明你是該  rogaverse 位址的擁有者,</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>此訊息之 birjees 位址已簽章於</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>此訊息之 rogaverse 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified birjees address</source>
-        <translation>驗證訊息以確保該  birjees 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified rogaverse address</source>
+        <translation>驗證訊息以確保該  rogaverse 位址已被簽章</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,16 +582,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     <message>
-        <source>Send coins to a birjees address</source>
-        <translation>送出錢幣到 birjees 地址</translation>
+        <source>Send coins to a rogaverse address</source>
+        <translation>送出錢幣到 rogaverse 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and birjees: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 birjees 位址)</translation>
+        <source>Request payments (generates QR codes and rogaverse: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 rogaverse 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,24 +602,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About birjees Core</source>
-        <translation>&amp;關於 birjees Core</translation>
+        <source>&amp;About rogaverse Core</source>
+        <translation>&amp;關於 rogaverse Core</translation>
     </message>
     <message>
-        <source>Show information about birjees Core</source>
-        <translation>顯示 birjees Core 相關資訊</translation>
+        <source>Show information about rogaverse Core</source>
+        <translation>顯示 rogaverse Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for birjees</source>
-        <translation>修改 birjees 設定</translation>
+        <source>Modify configuration options for rogaverse</source>
+        <translation>修改 rogaverse 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your birjees addresses to prove you own them</source>
-        <translation>使用你的 birjees 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your rogaverse addresses to prove you own them</source>
+        <translation>使用你的 rogaverse 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified birjees addresses</source>
-        <translation>驗證訊息簽章與 birjees 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified rogaverse addresses</source>
+        <translation>驗證訊息簽章與 rogaverse 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a birjees: URI or payment request</source>
-        <translation>打開birjees: 位址或付款請求 </translation>
+        <source>Open a rogaverse: URI or payment request</source>
+        <translation>打開rogaverse: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the birjees Core help message to get a list with possible birjees command-line options</source>
-        <translation>顯示 birjees Core 幫助訊息以取得 birjees 命令列表選項</translation>
+        <source>Show the rogaverse Core help message to get a list with possible rogaverse command-line options</source>
+        <translation>顯示 rogaverse Core 幫助訊息以取得 rogaverse 命令列表選項</translation>
     </message>
     <message>
-        <source>birjees Core client</source>
-        <translation>birjees Core 客戶端</translation>
+        <source>rogaverse Core client</source>
+        <translation>rogaverse Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     </context>
 <context>
@@ -817,8 +817,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>對訊息簽名的 birjees 位址</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>對訊息簽名的 rogaverse 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -841,16 +841,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>使用簽章來證明你是該  birjees 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>使用簽章來證明你是該  rogaverse 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>此訊息之 birjees 位址已簽章於</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>此訊息之 rogaverse 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified birjees address</source>
-        <translation>驗證訊息以確保該  birjees 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified rogaverse address</source>
+        <translation>驗證訊息以確保該  rogaverse 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -888,8 +888,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Core</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Core</translation>
     </message>
     </context>
 <context>
@@ -952,6 +952,6 @@
     </message>
     </context>
 <context>
-    <name>birjees-core</name>
+    <name>rogaverse-core</name>
     </context>
 </TS>

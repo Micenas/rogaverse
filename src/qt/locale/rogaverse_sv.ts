@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina birjees adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your rogaverse addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina rogaverse adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina birjees adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your rogaverse addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina rogaverse adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,8 +160,8 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>birjees will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>birjees kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina PIEs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>rogaverse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>rogaverse kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina PIEs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a birjees Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Skriv in en birjees adress som du vill kryptera med BIP 38.
+        <source>Enter a rogaverse Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Skriv in en rogaverse adress som du vill kryptera med BIP 38.
 Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>birjees adressen för signera meddelandet med</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>rogaverse adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna birjees adress</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna rogaverse adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Ange</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>birjees adressen meddelandet blev signerat med</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>rogaverse adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified birjees address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika birjees adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified rogaverse address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika rogaverse adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Kärna</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a birjees address</source>
-        <translation>Skicka mynt till en birjees adress</translation>
+        <source>Send coins to a rogaverse address</source>
+        <translation>Skicka mynt till en rogaverse adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and birjees: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och birjees: URls)</translation>
+        <source>Request payments (generates QR codes and rogaverse: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och rogaverse: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About birjees Core</source>
-        <translation>Om birjees Kärnan</translation>
+        <source>&amp;About rogaverse Core</source>
+        <translation>Om rogaverse Kärnan</translation>
     </message>
     <message>
-        <source>Show information about birjees Core</source>
-        <translation>Visa information om birjees Kärnan</translation>
+        <source>Show information about rogaverse Core</source>
+        <translation>Visa information om rogaverse Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for birjees</source>
-        <translation>Ändra konfigurationsval för birjees</translation>
+        <source>Modify configuration options for rogaverse</source>
+        <translation>Ändra konfigurationsval för rogaverse</translation>
     </message>
     <message>
-        <source>Sign messages with your birjees addresses to prove you own them</source>
-        <translation>Signera meddelanden med din birjees adress för att visa att du äger dem</translation>
+        <source>Sign messages with your rogaverse addresses to prove you own them</source>
+        <translation>Signera meddelanden med din rogaverse adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified birjees addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika birjees adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified rogaverse addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika rogaverse adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>birjees Core client</source>
-        <translation>birjees kärn klient</translation>
+        <source>rogaverse Core client</source>
+        <translation>rogaverse kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -841,15 +841,15 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Kärna</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Kärna</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1106,8 +1106,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>birjees adressen för signera meddelandet med</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>rogaverse adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna birjees adress</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna rogaverse adress</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>birjees adressen meddelandet blev signerat med</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>rogaverse adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified birjees address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika birjees adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified rogaverse address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika rogaverse adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1181,8 +1181,8 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Kärna</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Kärna</translation>
     </message>
     </context>
 <context>
@@ -1365,7 +1365,7 @@ Skriv in en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna d
     </message>
     </context>
 <context>
-    <name>birjees-core</name>
+    <name>rogaverse-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/birjees/.birjees" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/birjees/.birjees"
+if [ -d "/var/lib/rogaverse/.rogaverse" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/rogaverse/.rogaverse"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/birjeesd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/rogaversed"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/birjees/birjees.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/birjeesd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/birjeesd.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/rogaverse/rogaverse.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/rogaversed}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/rogaversed.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-birjees}
-BITCOIND_GROUP=${BITCOIND_GROUP:-birjees}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/birjeesd}
+BITCOIND_USER=${BITCOIND_USER:-rogaverse}
+BITCOIND_GROUP=${BITCOIND_GROUP:-rogaverse}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/rogaversed}
 
-name="birjees Core Daemon"
-description="birjees crypto-currency p2p network daemon"
+name="rogaverse Core Daemon"
+description="rogaverse crypto-currency p2p network daemon"
 
-command="/usr/bin/birjeesd"
+command="/usr/bin/rogaversed"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run birjeesd."
+		eerror "ERROR: You must set a secure rpcpassword to run rogaversed."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"birjees Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"rogaverse Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

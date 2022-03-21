@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += birjeesd
+  bin_PROGRAMS += rogaversed
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += birjees-cli birjees-tx
+  bin_PROGRAMS += rogaverse-cli rogaverse-tx
 endif
 
 .PHONY: FORCE
-# birjees core #
+# rogaverse core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -180,7 +180,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between birjeesd and birjees-qt
+# server: shared between rogaversed and rogaverse-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -224,7 +224,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between birjeesd and birjees-qt, but only linked
+# wallet: shared between rogaversed and rogaverse-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +295,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between birjeesd, and birjees-qt and non-server tools
+# common: shared between rogaversed, and rogaverse-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +351,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between birjees-cli and birjees-qt
+# cli: shared between rogaverse-cli and rogaverse-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-birjeesd_LDADD = \
+rogaversed_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +372,40 @@ birjeesd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-birjeesd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+rogaversed_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-birjeesd_LDADD += libbitcoin_wallet.a
+rogaversed_LDADD += libbitcoin_wallet.a
 endif
-birjeesd_SOURCES = birjeesd.cpp
+rogaversed_SOURCES = rogaversed.cpp
 #
 
 if TARGET_WINDOWS
-birjeesd_SOURCES += birjeesd-res.rc
+rogaversed_SOURCES += rogaversed-res.rc
 endif
 
-birjeesd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-birjeesd_CPPFLAGS = $(BITCOIN_INCLUDES)
-birjeesd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+rogaversed_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+rogaversed_CPPFLAGS = $(BITCOIN_INCLUDES)
+rogaversed_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# birjees-cli binary #
-birjees_cli_LDADD = \
+# rogaverse-cli binary #
+rogaverse_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-birjees_cli_SOURCES = \
-  birjees-cli.cpp
+rogaverse_cli_SOURCES = \
+  rogaverse-cli.cpp
 
-birjees_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+rogaverse_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# birjees-tx binary #
-birjees_tx_LDADD = \
+# rogaverse-tx binary #
+rogaverse_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ birjees_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-birjees_tx_SOURCES = birjees-tx.cpp
-birjees_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+rogaverse_tx_SOURCES = rogaverse-tx.cpp
+rogaverse_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-birjees_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+rogaverse_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-birjees_cli_SOURCES += birjees-cli-res.rc
+rogaverse_cli_SOURCES += rogaverse-cli-res.rc
 endif
-birjees_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+rogaverse_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

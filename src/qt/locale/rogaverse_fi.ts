@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun birjees osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your rogaverse addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun rogaverse osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your birjees addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun birjees osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your rogaverse addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun rogaverse osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,8 +164,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>birjees will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
-        <translation>birjees sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella PIEien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>rogaverse will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIEs from being stolen by malware infecting your computer.</source>
+        <translation>rogaverse sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella PIEien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -227,8 +227,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a birjees Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä birjees osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a rogaverse Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä rogaverse osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -236,8 +236,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>birjees osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>rogaverse osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -268,8 +268,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän birjees osoitteen</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän rogaverse osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,8 +288,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;BIP 38 salauksen avaus</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>birjees osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>rogaverse osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -575,16 +575,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Ydin</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a birjees address</source>
-        <translation>Lähetä kolikkoja birjees osoitteeseen</translation>
+        <source>Send coins to a rogaverse address</source>
+        <translation>Lähetä kolikkoja rogaverse osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and birjees: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja birjees: URIja)</translation>
+        <source>Request payments (generates QR codes and rogaverse: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja rogaverse: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -595,24 +595,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About birjees Core</source>
-        <translation>birjees Core &amp;ytimestä</translation>
+        <source>&amp;About rogaverse Core</source>
+        <translation>rogaverse Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about birjees Core</source>
-        <translation>Näytä tietoja birjees Ytimestä</translation>
+        <source>Show information about rogaverse Core</source>
+        <translation>Näytä tietoja rogaverse Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for birjees</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja birjees:lle</translation>
+        <source>Modify configuration options for rogaverse</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja rogaverse:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your birjees addresses to prove you own them</source>
+        <source>Sign messages with your rogaverse addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified birjees addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä birjees osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified rogaverse addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä rogaverse osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -643,8 +643,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a birjees: URI or payment request</source>
-        <translation>Avaa birjees: URI tai pyydä maksua</translation>
+        <source>Open a rogaverse: URI or payment request</source>
+        <translation>Avaa rogaverse: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -655,12 +655,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the birjees Core help message to get a list with possible birjees command-line options</source>
-        <translation>Näytä birjees Ydin apuviesti saadaksesi lista mahdollisista birjees komentolinja komennoista.</translation>
+        <source>Show the rogaverse Core help message to get a list with possible rogaverse command-line options</source>
+        <translation>Näytä rogaverse Ydin apuviesti saadaksesi lista mahdollisista rogaverse komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>birjees Core client</source>
-        <translation>birjees Ydin asiakasohjelma</translation>
+        <source>rogaverse Core client</source>
+        <translation>rogaverse Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -894,8 +894,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Ydin</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -913,12 +913,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to birjees Core.</source>
-        <translation>Tervetuloa birjees Ytimeen.</translation>
+        <source>Welcome to rogaverse Core.</source>
+        <translation>Tervetuloa rogaverse Ytimeen.</translation>
     </message>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Ydin</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1092,11 +1092,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 10000 PIE</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 birjees</translation>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 rogaverse</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 PIE</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 birjees</translation>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 rogaverse</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1104,11 +1104,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 PIE to anonymize 10000 PIE</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 PIE anonymoidaksesi 10000 birjees</translation>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 PIE anonymoidaksesi 10000 rogaverse</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 PIE to anonymize 10000 PIE</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 birjees anonymoidaksesi 10000 birjees</translation>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 rogaverse anonymoidaksesi 10000 rogaverse</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1116,7 +1116,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>0.1 PIE per 10000 PIE you anonymize.</source>
-        <translation>0.1 per 10000 birjees, jotka anonymisoit.</translation>
+        <translation>0.1 per 10000 rogaverse, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1165,12 +1165,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start birjees after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä birjees kun kirjaudut sisään.</translation>
+        <source>Automatically start rogaverse after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä rogaverse kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start birjees on system login</source>
-        <translation>&amp;Aloita birjees järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start rogaverse on system login</source>
+        <translation>&amp;Aloita rogaverse järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1315,8 +1315,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the birjees RPC console.</source>
-        <translation>Tervetuloa birjees RPC konsoliin.</translation>
+        <source>Welcome to the rogaverse RPC console.</source>
+        <translation>Tervetuloa rogaverse RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1608,8 +1608,8 @@ Please check the address and try again.</source>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The birjees address to sign the message with</source>
-        <translation>birjees osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The rogaverse address to sign the message with</source>
+        <translation>rogaverse osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1632,12 +1632,12 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this birjees address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän birjees osoitteen</translation>
+        <source>Sign the message to prove you own this rogaverse address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän rogaverse osoitteen</translation>
     </message>
     <message>
-        <source>The birjees address the message was signed with</source>
-        <translation>birjees osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The rogaverse address the message was signed with</source>
+        <translation>rogaverse osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1675,8 +1675,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>birjees Core</source>
-        <translation>birjees Ydin</translation>
+        <source>rogaverse Core</source>
+        <translation>rogaverse Ydin</translation>
     </message>
     </context>
 <context>
@@ -1887,7 +1887,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>birjees-core</name>
+    <name>rogaverse-core</name>
     <message>
         <source>Error</source>
         <translation>Virhe</translation>

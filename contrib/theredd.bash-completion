@@ -1,12 +1,12 @@
-# bash programmable completion for birjeesd(1) and birjees-cli(1)
+# bash programmable completion for rogaversed(1) and rogaverse-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have birjeesd && {
+have rogaversed && {
 
-# call $birjeesd for RPC
-_birjees_rpc() {
+# call $rogaversed for RPC
+_rogaverse_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -16,23 +16,23 @@ _birjees_rpc() {
                 ;;
         esac
     done
-    $birjeesd "${rpcargs[@]}" "$@"
+    $rogaversed "${rpcargs[@]}" "$@"
 }
 
-# Add birjees accounts to COMPREPLY
-_birjees_accounts() {
+# Add rogaverse accounts to COMPREPLY
+_rogaverse_accounts() {
     local accounts
-    accounts=$(_birjees_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_rogaverse_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_birjeesd() {
+_rogaversed() {
     local cur prev words=() cword
-    local birjeesd
+    local rogaversed
 
-    # save and use original argument to invoke birjeesd
-    # birjeesd might not be in $PATH
-    birjeesd="$1"
+    # save and use original argument to invoke rogaversed
+    # rogaversed might not be in $PATH
+    rogaversed="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -53,7 +53,7 @@ _birjeesd() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _birjees_accounts
+                _rogaverse_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _birjeesd() {
                 return 0
                 ;;
             move|setaccount)
-                _birjees_accounts
+                _rogaverse_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _birjeesd() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _birjees_accounts
+            _rogaverse_accounts
             return 0
             ;;
     esac
@@ -114,12 +114,12 @@ _birjeesd() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($birjeesd --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($rogaversed --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_birjees_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_rogaverse_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _birjeesd() {
     esac
 }
 
-complete -F _birjeesd birjeesd birjees-cli
+complete -F _rogaversed rogaversed rogaverse-cli
 }
 
 # Local variables:
