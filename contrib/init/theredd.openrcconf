@@ -1,0 +1,26 @@
+# /etc/conf.d/birjeesd: config file for /etc/init.d/birjeesd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/birjees/birjees.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/birjeesd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/birjeesd.pid"
+
+# Where to write birjeesd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/birjeesd"
+
+# User and group to own birjeesd process
+#BITCOIND_USER="birjees"
+#BITCOIND_GROUP="birjees"
+
+# Path to birjeesd executable
+#BITCOIND_BIN="/usr/bin/birjeesd"
+
+# Nice value to run birjeesd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

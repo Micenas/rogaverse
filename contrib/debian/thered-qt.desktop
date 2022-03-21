@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=birjees
+Comment=birjees P2P Cryptocurrency
+Comment[fr]=birjees, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=birjees, eşten eşe kriptografik sanal para birimi
+Exec=birjees-qt %u
+Terminal=false
+Type=Application
+Icon=birjees128
+MimeType=x-scheme-handler/birjees;
+Categories=Office;Finance;

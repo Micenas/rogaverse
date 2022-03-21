@@ -1,0 +1,26 @@
+[Unit]
+Description=birjees's distributed currency daemon
+After=network.target
+
+[Service]
+User=birjees
+Group=birjees
+
+Type=forking
+PIDFile=/var/lib/birjeesd/birjeesd.pid
+
+ExecStart=/usr/bin/birjeesd -daemon -pid=/var/lib/birjeesd/birjeesd.pid \
+          -conf=/etc/birjees/birjees.conf -datadir=/var/lib/birjeesd
+
+ExecStop=-/usr/bin/birjees-cli -conf=/etc/birjees/birjees.conf \
+         -datadir=/var/lib/birjeesd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
