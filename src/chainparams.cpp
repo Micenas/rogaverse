@@ -402,47 +402,11 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1647835228;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 26017532;	
-		
-		
-		const int SCRYPT_SCRATCHPAD_SIZE = 131072 + 63;
-
-          if (true && genesis.GetHash() != hashGenesisBlock)
-        //if(false)
-        {
-            printf("Searching for genesis block...\n");
-            // This will figure out a valid hash and Nonce if you're
-            // creating a different genesis block:
-            uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-            uint256 thash;
-            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
-
-            while(true)
-            {
-                scrypt_1024_1_1_256_sp_generic(BEGIN(genesis.nVersion), BEGIN(thash), scratchpad);
-                if (thash <= hashTarget)
-                    break;
-                if ((genesis.nNonce & 0xFFF) == 0)
-                {
-                    printf("nonce %08X: hash = %s (target = %s)\n", genesis.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
-                }
-                ++genesis.nNonce;
-                if (genesis.nNonce == 0)
-                {
-                    printf("NONCE WRAPPED, incrementing time\n");
-                    ++genesis.nTime;
-                }
-            }
-            printf("block.nTime = %u \n", genesis.nTime);
-            printf("block.nNonce = %u \n", genesis.nNonce);
-            printf("block.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-
-            }
-
+        genesis.nNonce = 28297892;	
 			
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x5fd817d4b17b560ef33aa0df74bd33791fee965eb38a243adcba1c8892dcbb52"));
+        assert(hashGenesisBlock == uint256("0xb1428a5342504517dc85982de4984ae52df77be9952369073fd52c0e05f6782e"));
         //assert(genesis.hashMerkleRoot == uint256("0x83d7618987a3d26b2ad11364d08303f5da3e20e2c00be086d30c90c655cda808"));
 
         vSeeds.push_back(CDNSSeedData("207.246.81.216","207.246.81.216"));     // Primary DNS Seeder 
