@@ -12,7 +12,7 @@ More information at [rogaverse.io](http://www.rogaverse.io)
 
 ### Coin Specs
 <table>
-<tr><td>Ticker Symbol</td><td>RHER</td></tr>
+<tr><td>Ticker Symbol</td><td>RGV</td></tr>
 <tr><td>Algorithm</td><td>Quark</td></tr>
 <tr><td>Type</td><td>POW</td></tr>
 <tr><td>Block Time</td><td>120 secs</td></tr>
